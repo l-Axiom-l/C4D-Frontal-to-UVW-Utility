@@ -2,7 +2,7 @@
 ## A Python Script which emulates Camera Projection
 
 - CinemaUVWThingy.py -> The Python Script
-- A variation from the original Script with a material container container Object
+- CinemaUVWThingyWithMainObject -> A variation from the original Script with a material container container Object
 - ThingyTest.mp4 -> A example Video
 - ThingyTest.c4d -> A example Cinema4d Project
 
