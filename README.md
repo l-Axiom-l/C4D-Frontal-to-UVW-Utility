@@ -11,4 +11,6 @@ Script works as Python Script Tag
 
 It detects all Objects in the Scene which have "ax_" in their name.
 
+The variation also detects the Object with "axmain_" in its name and uses it to retrieve the material.
+
 It then automatically refreshes the UVW tag every frame.
