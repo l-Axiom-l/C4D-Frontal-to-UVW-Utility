@@ -3,6 +3,12 @@ import c4d
 def main():
     #Gets all Objects with ax_ in the Name
     things = doc.GetObjects()
+    
+    #Get first generation of children objects
+    for ob in things:
+        children = ob.GetChildren()
+        things = things + list(filter(lambda x: "ax_" in c.GetName(), children))
+    
     main = list(filter(lambda x: "axmain_" in x.GetName(), things))[0]
     importantThings = list(filter(lambda x: "ax_" in x.GetName(), things))
     for obj in importantThings:
